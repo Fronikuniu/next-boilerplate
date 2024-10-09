@@ -12,6 +12,7 @@
     "generate-types": "npm run strapi ts:generate-types"
   },
   "dependencies": {
+    "@ckeditor/strapi-plugin-ckeditor": "0.0.13",
     "@strapi/plugin-documentation": "4.25.13",
     "@strapi/plugin-users-permissions": "4.25.13",
     "@strapi/plugin-seo": "1.9.9",
