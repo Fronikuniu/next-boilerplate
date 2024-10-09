@@ -1,0 +1,40 @@
+{
+  "name": "api",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A Strapi application",
+  "scripts": {
+    "build": "strapi build",
+    "deploy": "strapi deploy",
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "strapi": "strapi",
+    "generate-types": "npm run strapi ts:generate-types"
+  },
+  "dependencies": {
+    "@strapi/plugin-documentation": "4.25.13",
+    "@strapi/plugin-users-permissions": "4.25.13",
+    "@strapi/plugin-seo": "1.9.9",
+    "@strapi/strapi": "4.25.13",
+    "fs-extra": "11.2.0",
+    "mime-types": "2.1.35",
+    "pg": "8.13.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "react-router-dom": "5.3.4",
+    "styled-components": "5.3.11"
+  },
+  "devDependencies": {
+    "@types/node": "22.7.5",
+    "@types/react": "18.3.11",
+    "@types/react-dom": "18.3.0",
+    "typescript": "5.6.3"
+  },
+  "engines": {
+    "node": ">=18.0.0 <=22.x.x",
+    "npm": ">=6.0.0"
+  },
+  "strapi": {
+    "uuid": "09e50741-8e6e-4581-915c-e5bef1c67fb4"
+  }
+}
